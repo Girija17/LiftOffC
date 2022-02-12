@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int x,y;
+clrscr();
+printf("Enter the 2 nos");
+scanf("%d %d",&x,&y);
+if(x>y)
+{
+printf("%d is maximum",x);
+}
+else
+{
+printf("%d is maximum",y);
+}
+return 0;
+}
