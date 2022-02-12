@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char name[30],branch[20],hobbies[80];
+int regdno;
+clrscr();
+printf("Enter your name");
+scanf("%c",&name);
+printf("Enter your last 3 digits of registration number");
+scanf("%d",&regdno);
+printf("Enter your branch");
+scanf("%c",&branch);
+printf("Enter your hobbies");
+scanf("%c",&hobbies);
+getch();
+}
