@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char a;
+float x,y,z;
+printf("Choose any operator form +,-,*,/,%");
+scanf("%c",&a);
+printf("Enter 2 numbers");
+scanf("%f %f",&x,&y);
+switch(a)
+{
+case '+':
+z=x+y;
+printf("Sum of the nos is %f",z);
+break;
+case '-':
+z=x-y;
+printf("Difference of the nos is %f",z);
+break;
+case '*':
+z=x*y;
+printf("Multiplication of the nos is %f",z);
+break;
+case '/':
+z=x/y;
+printf("Divison of the nos is %f",z);
+break;
+case '%':
+z=x%y;
+printf("Remainder after divison of the nos is %f",z);
+break;
+}
+return 0;
+}
